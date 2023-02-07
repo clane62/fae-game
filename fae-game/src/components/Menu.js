@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
-import One from './One'
+import { Link } from 'react-router-dom'
 
 function Menu() {
   let [ruleOutput, setRuleOutput] = useState([])
@@ -26,9 +25,6 @@ function Menu() {
       <section>
         <Link to='/One'>Play Now</Link>
       </section>
-      <Routes>
-        <Route path='/One' element={<One />} />
-      </Routes>
       <button onClick={loadRules}>Rules</button>
       <div className="ruleOutput">{ruleOutput}</div>
     </div>

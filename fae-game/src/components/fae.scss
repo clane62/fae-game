@@ -1,0 +1,73 @@
+.fae {
+  text-align: right;
+  position: relative;
+
+
+}
+
+.fae-nowings img {
+  height: 250px;
+  left: 86%;
+  position: absolute;
+}
+
+
+.fae-wings img {
+  height: 100px;
+  position: absolute;
+  left: 86%;
+  top: 2%;
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(5, end);
+}
+
+@keyframes blink {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+
+}
+
+.fae2 {
+  text-align: left;
+  position: relative;
+  padding-top: 400px;
+
+
+
+}
+
+.fae-nowings2 img {
+  height: 250px;
+  position: absolute;
+  right: 85%;
+
+}
+
+
+.fae-wings2 img {
+  height: 100px;
+  position: absolute;
+  right: 85%;
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(5, end);
+}
+
+@keyframes blink {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+
+}

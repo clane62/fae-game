@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 
-function One() {
+function Three() {
   return (
     <section>
-      <Link to='/Two'>Next Level</Link>
+      <Link to='/Finished'>end it</Link>
     </section>
   )
 }
 
-export default One;
+export default Three;
