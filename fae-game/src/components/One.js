@@ -6,7 +6,9 @@ import Trivia from './Trivia';
 function One() {
   return (
     <section>
-      <Link to='/Two'>Next Level</Link>
+      <div className='nextLevel' hidden={true}>
+        <Link to='/Two'>Next Level</Link>
+      </div>
       <InsultGenerator />
       <Trivia />
     </section>

@@ -1,12 +1,16 @@
 import { Link } from 'react-router-dom'
 import InsultGenerator from './InsultGenerator'
+import Trivia from './Trivia';
 
 
 function Two() {
   return (
     <section>
-      <Link to='/Three'>Next Level</Link>
+      <div className='nextLevel' hidden={true}>
+        <Link to='/Three'>Next Level</Link>
+      </div>
       <InsultGenerator />
+      <Trivia />
     </section>
   )
 }
