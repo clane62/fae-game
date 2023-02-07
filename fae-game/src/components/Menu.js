@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import InsultGenerator from './InsultGenerator'
 
 function Menu() {
   let [ruleOutput, setRuleOutput] = useState([])
@@ -19,9 +20,23 @@ function Menu() {
     }
   }
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      InsultGenerator()
+    }, 1000);
+    return () => clearInterval(interval)
+  }, []);
+  // 
+
+  // const wait = time => new Promise(resolve => setTimeout(resolve, time))
+
+  // wait(2000)
+  //   .then(() => InsultGenerator())
+
   return (
     <div className='main-menu'>
       <h1>welcome to the fae game</h1>
+      <InsultGenerator />
       <section>
         <Link to='/One'>Play Now</Link>
       </section>

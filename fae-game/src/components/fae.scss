@@ -1,6 +1,8 @@
 .fae {
   text-align: right;
   position: relative;
+  padding-top: 20px;
+
 
 
 }
@@ -16,7 +18,6 @@
   height: 100px;
   position: absolute;
   left: 86%;
-  top: 2%;
   animation: blink;
   animation-duration: 1s;
   animation-iteration-count: infinite;
