@@ -12,11 +12,11 @@ import speech2 from './images/speechBubble2.png'
 
 
 
-function Three() {
+function Five() {
   return (
     <section>
       <div className='nextLevel' hidden={true}>
-        <Link className="link" to='/Four'>Next Level</Link>
+        <Link className="link" to='/Finished'>end it</Link>
       </div>
       <div className='allInsults'>
         <div className='speech1'>
@@ -44,10 +44,10 @@ function Three() {
         <div className="crystal3" >
           <img src={crystal3} alt="" />
         </div>
-        <div className="crystal4" hidden={true}>
+        <div className="crystal4" >
           <img src={crystal4} alt="" />
         </div>
-        <div className="crystal5" hidden={true}>
+        <div className="crystal5" >
           <img src={crystal5} alt="" />
         </div>
       </div>
@@ -55,4 +55,4 @@ function Three() {
   )
 }
 
-export default Three;
+export default Five;

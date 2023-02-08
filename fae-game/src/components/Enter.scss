@@ -1,3 +1,26 @@
-// body {
-//   background-color: black;
-// }
+body {
+  background-color: black;
+  font-family: 'Bitter', serif;
+}
+
+.enter {
+  color: #FFF;
+  text-decoration: none;
+  font-family: 'Bitter', serif;
+  font-size: 50px
+}
+
+.enter:hover {
+  color: rgb(226, 43, 43);
+}
+
+.link {
+  color: #FFF;
+  text-decoration: none;
+  font-family: 'Bitter', serif;
+  font-size: 20px
+}
+
+.link:hover {
+  color: rgb(226, 43, 43);
+}

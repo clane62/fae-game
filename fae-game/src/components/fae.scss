@@ -24,6 +24,21 @@
   animation-timing-function: steps(5, end);
 }
 
+.speech1 {
+  height: 50px;
+  position: absolute;
+  left: 75%;
+  top: -1%;
+  margin-top: -1%;
+}
+
+.speech2 {
+  height: 50px;
+  position: absolute;
+  right: 75%;
+  margin-top: -8%;
+}
+
 @keyframes blink {
   from {
     opacity: 100%;

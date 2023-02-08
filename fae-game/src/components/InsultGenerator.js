@@ -8,7 +8,7 @@ function InsultGenerator() {
   var insult2 = Math.floor(Math.random() * verb2ndArray.length)
   var insult3 = Math.floor(Math.random() * animalArray.length)
 
-  var insultOutput = verbArray[insult1] + ', ' + verb2ndArray[insult2] + ' ' + animalArray[insult3]
+  var insultOutput = verbArray[insult1] + ', ' + verb2ndArray[insult2] + ' ' + animalArray[insult3] + "!"
   // console.log(insultOutput)
 
   return (

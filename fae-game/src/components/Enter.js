@@ -4,6 +4,8 @@ import NoMatch from './NoMatch'
 import One from './One'
 import Two from './Two'
 import Three from './Three'
+import Four from './Four'
+import Five from './Five'
 import Finished from './Finished'
 import './Enter.scss'
 import faeNoWings from './images/fae_nowings.png'
@@ -14,8 +16,11 @@ import './fae.scss'
 
 function Enter() {
 
+
   return (
+    // fae images
     <div>
+      {/* fae one  - on the right */}
       <div className='fae'>
         <div className='fae-nowings'>
           <img src={faeNoWings} alt="" />
@@ -25,6 +30,7 @@ function Enter() {
         </div>
       </div>
       <div className='fae2'>
+        {/* fae two  - on the left */}
         <div className='fae-nowings2'>
           <img src={faeNoWings2} alt="" />
           <div className='fae-wings2'>
@@ -33,8 +39,8 @@ function Enter() {
         </div>
       </div>
       <section hidden={false}>
-        <h1>FAE GAME</h1>
-        <Link to='/menu'>ENTER</Link>
+        <h1>THE FAE FOREST</h1>
+        <Link className="enter" to='/menu'>ENTER</Link>
       </section>
       <Routes>
         <Route path="*" element={<NoMatch />} />
@@ -42,9 +48,13 @@ function Enter() {
         <Route path='/One' element={<One />} />
         <Route path='/Two' element={<Two />} />
         <Route path='/Three' element={<Three />} />
+        <Route path='/Four' element={<Four />} />
+        <Route path='/Five' element={<Five />} />
         <Route path='/Finished' element={<Finished />} />
       </Routes>
+
     </div>
+
   )
 }
 export default Enter;

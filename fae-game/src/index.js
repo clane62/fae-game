@@ -5,9 +5,12 @@ import './components/Menu';
 import './components/One';
 import './components/Two';
 import './components/Three';
+import './components/Four';
+import './components/Five';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet"></link>
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
