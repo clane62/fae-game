@@ -124,14 +124,11 @@ function Trivia() {
   }
 
   function flashBolt() {
-    document.querySelector(".bolt").hidden = false
-    // setTimeout(document.querySelector(".bolt").hidden = true, )
+    if (document.querySelector(".bolt").hidden === true) {
+      document.querySelector(".bolt").hidden = false
+    }
   }
 
-  // function hideBolt() {
-  //   document.querySelector(".bolt").hidden = true
-
-  // }
 
   return (
     <div className='question'>

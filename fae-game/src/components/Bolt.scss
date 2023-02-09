@@ -1,6 +1,7 @@
 .bolt {
   position: absolute;
-  top: -30%;
+  max-height: fit-content;
+  top: -40%;
   left: 50%;
   opacity: 0%;
   animation: blink 1s;
