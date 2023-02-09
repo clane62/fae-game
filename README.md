@@ -23,7 +23,10 @@ Aesthetically and functionally the game ended up being quite close to how I orig
 I encountered quite a few problems during this project including:
 - setting up the routing - this was eventually solved after more research into react. 
 - the api used included some data that was formatted poorly with additional characters (such as #%^ etc). As a work around, I included a verification step for each call of the api to ensure that only correct questions and answers were passed through to the front end.
-- I had quite a lot of issues holding states across pages, this is something I haven't completely got the hang of yet and will continue to study in the coming weeks and will likely rewrite the impacted code. 
+- I had quite a lot of issues holding states across pages, this is something I haven't completely got the hang of yet and will continue to study in the coming weeks and will likely rewrite the impacted code.
+
+## Cool tech
+I greatly enjoyed exploring a few different CSS animations in this project including serveral different crystal throwing actions on the last page. It was a bit of a struggle for me not to use too much colour but enjoyed pushing myself with the limited palatte. 
 
 ## Bugs to fix
 - the count on the bonus level
