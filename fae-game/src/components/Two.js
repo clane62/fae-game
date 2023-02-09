@@ -9,6 +9,8 @@ import crystal5 from './images/crystal5white.png'
 import './Insult.scss'
 import speech1 from './images/speechBubble1.png'
 import speech2 from './images/speechBubble2.png'
+import './Crystals.scss'
+
 
 
 function Two() {

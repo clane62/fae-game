@@ -1,0 +1,151 @@
+// .throw1 {
+//   // margin-top: -100px;
+//   position: absolute;
+//   top: 10%;
+//   display: flex;
+//   justify-content: center;
+// }
+
+.loc1 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 10%;
+  top: 10%
+}
+
+.loc1 img {
+  height: 100px;
+  opacity: 0%;
+  animation: blink 2s, spin 5000ms;
+}
+
+.loc2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 40%;
+  top: 30%
+}
+
+.loc2 img {
+  height: 100px;
+  opacity: 0%;
+  animation: spin 5000ms, blink 2s,
+}
+
+.loc3 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 70%;
+  top: 60%
+}
+
+.loc3 img {
+  height: 100px;
+  opacity: 0%;
+  animation: spin 5000ms, blink 2s,
+}
+
+.loc4 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 55%;
+  top: 60%
+}
+
+.loc4 img {
+  height: 100px;
+  opacity: 0%;
+  animation: antiClockwiseSpin 5000ms, blink 3s,
+}
+
+.loc5 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 70%;
+  top: 45%
+}
+
+.loc5 img {
+  height: 100px;
+  opacity: 0%;
+  animation: antiClockwiseSpin 5000ms, blink 3s,
+}
+
+.loc6 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 85%;
+  top: 45%
+}
+
+.loc6 img {
+  height: 100px;
+  opacity: 0%;
+  animation: antiClockwiseSpin 5000ms, blink 3s,
+}
+
+
+.throw2 {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  right: 40%;
+  top: 45%
+}
+
+.loc7 img {
+  width: 100px;
+  height: 100px;
+  animation: blink 4s, diagonal-move-anim 3s linear;
+  opacity: 0%
+}
+
+@keyframes diagonal-move-anim {
+
+  0% {
+    transform: translate(150px, 150px);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+
+}
+
+@keyframes blink {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes antiClockwiseSpin {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}

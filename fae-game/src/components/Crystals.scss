@@ -1,0 +1,62 @@
+[hidden] {
+  display: none
+}
+
+.crystal-display {
+  padding-top: 5rem;
+  position: relative;
+  text-align: right;
+  justify-content: space-between;
+
+}
+
+.crystal1 {
+  position: absolute;
+  text-align: right;
+  left: 18%;
+}
+
+.crystal1 img {
+  height: 100px
+}
+
+.crystal2 {
+  position: absolute;
+  text-align: left;
+  left: 33%;
+}
+
+.crystal2 img {
+  height: 100px
+}
+
+.crystal3 {
+  position: absolute;
+  text-align: right;
+  left: 48%;
+}
+
+.crystal3 img {
+  height: 100px
+}
+
+.crystal4 {
+  position: absolute;
+  text-align: right;
+  left: 62%
+}
+
+.crystal4 img {
+  height: 100px;
+  width: 100px;
+}
+
+.crystal5 {
+  position: absolute;
+  text-align: right;
+  left: 78%
+}
+
+.crystal5 img {
+  height: 100px
+}

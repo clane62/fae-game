@@ -120,7 +120,7 @@ function Trivia() {
 
   return (
     <div className='question'>
-      <h1>Answer this question</h1>
+      <h1></h1>
       <button className='question-button' hidden={false} onClick={getQuest}>GET QUESTION</button>
       <p className='question-output'>{getQuestion}</p>
       <p className='answer-output'>{answerOutput}</p>

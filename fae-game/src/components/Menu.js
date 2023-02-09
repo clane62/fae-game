@@ -17,7 +17,12 @@ function Menu() {
 
   const loadRules = (event) => {
     if (counter === 0) {
-      setRuleOutput("Answer questions correctly to win crystals. You'll be able to use your crystals to throw at the mean fae.")
+      setRuleOutput(
+        <div className='rulediv'>
+          <p>Move through the game answering trivia questions.</p>
+          <p>For each correct answer you gain a crystal.</p>
+          <p>Once you have enough crystals, you can throw them at the fae so they'll leave you alone.</p>
+        </div>)
       setCounter(1)
     } else {
       setRuleOutput([])
@@ -51,7 +56,8 @@ function Menu() {
           </div>
         </div>
       </div>
-      <h1>welcome to the fae forest</h1>
+      <h1>You've entered the forest of the fae.</h1>
+      <h3>The fae are mean and don't like outsiders.</h3>
       <section>
         <Link className="link" to='/One'>Play Now</Link>
       </section>

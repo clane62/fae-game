@@ -1,3 +1,29 @@
 .main-menu {
-  // background-color: white;
+  text-align: center;
+  display: relative;
+}
+
+.rulediv {
+  display: relative;
+  text-align: center;
+
+}
+
+.ruleOutput p {
+  display: absolute;
+  left: 50%;
+  font-kerning: none;
+
+}
+
+button {
+  margin: 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(226, 43, 43);
 }
