@@ -13,6 +13,7 @@ import wings from './images/wings.png'
 import faeNoWings2 from './images/fae-nowings2.png'
 import wings2 from './images/wings2.png'
 import './fae.scss'
+import BonusLevel from './BonusLevel'
 
 function Enter() {
 
@@ -51,6 +52,7 @@ function Enter() {
         <Route path='/Four' element={<Four />} />
         <Route path='/Five' element={<Five />} />
         <Route path='/Finished' element={<Finished />} />
+        <Route path='/BonusLevel' element={<BonusLevel />} />
       </Routes>
 
     </div>

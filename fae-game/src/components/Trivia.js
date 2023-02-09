@@ -1,6 +1,9 @@
+import { render } from '@testing-library/react'
 import { useState } from 'react'
 // import { crystal1, crystal2, crystal3, crystal4, crystal5 } from './Crystals'
 import Enter from './Enter'
+import Bolt from './images/bolt.png'
+import './Bolt.scss'
 
 function Trivia() {
   let [getQuestion, setGetQuestion] = useState([])
@@ -67,6 +70,7 @@ function Trivia() {
       document.querySelector(".nextLevel").hidden = false
     } else {
       setanswerOutput("WRONG")
+      flashBolt()
     }
   }
 
@@ -80,6 +84,7 @@ function Trivia() {
       addCrystal()
     } else {
       setanswerOutput("WRONG")
+      flashBolt()
     }
   }
 
@@ -93,6 +98,7 @@ function Trivia() {
       addCrystal()
     } else {
       setanswerOutput("WRONG")
+      flashBolt()
     }
   }
 
@@ -106,6 +112,7 @@ function Trivia() {
       addCrystal()
     } else {
       setanswerOutput("WRONG")
+      flashBolt()
     }
   }
 
@@ -116,11 +123,21 @@ function Trivia() {
     }
   }
 
-  // useEffect(addCrystal, [crystals])
+  function flashBolt() {
+    document.querySelector(".bolt").hidden = false
+    // setTimeout(document.querySelector(".bolt").hidden = true, )
+  }
+
+  // function hideBolt() {
+  //   document.querySelector(".bolt").hidden = true
+
+  // }
 
   return (
     <div className='question'>
-      <h1></h1>
+      <div className='bolt' hidden={true}>
+        <img src={Bolt} alt="" />
+      </div>
       <button className='question-button' hidden={false} onClick={getQuest}>GET QUESTION</button>
       <p className='question-output'>{getQuestion}</p>
       <p className='answer-output'>{answerOutput}</p>

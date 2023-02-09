@@ -6,13 +6,16 @@
 .rulediv {
   display: relative;
   text-align: center;
-
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .ruleOutput p {
   display: absolute;
   left: 50%;
   font-kerning: none;
+  color: black;
 
 }
 
@@ -26,4 +29,11 @@ button {
 
 button:hover {
   background-color: rgb(226, 43, 43);
+}
+
+body {
+  background-image: url('./images/white\ tree.png');
+  background-size: 50%;
+  background-position: -13% 40%;
+  background-repeat: no-repeat;
 }

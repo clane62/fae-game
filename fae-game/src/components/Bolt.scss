@@ -1,0 +1,18 @@
+.bolt {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  opacity: 0%;
+  animation: blink 1s;
+}
+
+@keyframes blink {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+
+}

@@ -1,12 +1,5 @@
-// .throw1 {
-//   // margin-top: -100px;
-//   position: absolute;
-//   top: 10%;
-//   display: flex;
-//   justify-content: center;
-// }
-
-.loc1 {
+// Throw 1 - 
+.img1 {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -14,13 +7,13 @@
   top: 10%
 }
 
-.loc1 img {
+.img1 img {
   height: 100px;
   opacity: 0%;
   animation: blink 2s, spin 5000ms;
 }
 
-.loc2 {
+.img2 {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -28,13 +21,13 @@
   top: 30%
 }
 
-.loc2 img {
+.img2 img {
   height: 100px;
   opacity: 0%;
   animation: spin 5000ms, blink 2s,
 }
 
-.loc3 {
+.img3 {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -42,80 +35,10 @@
   top: 60%
 }
 
-.loc3 img {
+.img3 img {
   height: 100px;
   opacity: 0%;
   animation: spin 5000ms, blink 2s,
-}
-
-.loc4 {
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  right: 55%;
-  top: 60%
-}
-
-.loc4 img {
-  height: 100px;
-  opacity: 0%;
-  animation: antiClockwiseSpin 5000ms, blink 3s,
-}
-
-.loc5 {
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  right: 70%;
-  top: 45%
-}
-
-.loc5 img {
-  height: 100px;
-  opacity: 0%;
-  animation: antiClockwiseSpin 5000ms, blink 3s,
-}
-
-.loc6 {
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  right: 85%;
-  top: 45%
-}
-
-.loc6 img {
-  height: 100px;
-  opacity: 0%;
-  animation: antiClockwiseSpin 5000ms, blink 3s,
-}
-
-
-.throw2 {
-  position: absolute;
-  width: 100%;
-  height: 300px;
-  right: 40%;
-  top: 45%
-}
-
-.loc7 img {
-  width: 100px;
-  height: 100px;
-  animation: blink 4s, diagonal-move-anim 3s linear;
-  opacity: 0%
-}
-
-@keyframes diagonal-move-anim {
-
-  0% {
-    transform: translate(150px, 150px);
-  }
-
-  100% {
-    transform: translate(0, 0px);
-  }
-
 }
 
 @keyframes blink {
@@ -139,6 +62,207 @@
   }
 }
 
+//
+// Throw 2 - 
+
+
+
+.img4 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 10%;
+  top: 10%
+}
+
+.img4 img {
+  height: 100px;
+  opacity: 0%;
+  animation: fade 2s, rotate 5000ms;
+}
+
+.img5 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 40%;
+  top: 30%
+}
+
+.img5 img {
+  height: 100px;
+  opacity: 0%;
+  animation: rotate 5000ms, fade 2s,
+}
+
+.img6 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 50%;
+  top: 60%
+}
+
+.img6 img {
+  height: 100px;
+  opacity: 0%;
+  animation: rotate 5000ms, fade 2s,
+}
+
+
+@keyframes fade {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// 
+// Throw 3 - not working yet.
+
+.throw3 {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  right: 40%;
+  top: 45%
+}
+
+.img7 img {
+  width: 100px;
+  height: 100px;
+  animation: blink 4s, diagonal-move-anim 3s linear;
+
+}
+
+@keyframes diagonal-move-anim {
+
+  0% {
+    transform: translate(150px, 150px);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+
+}
+
+// Throw 4
+
+
+.img8 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 55%;
+  top: 60%
+}
+
+.img8 img {
+  height: 100px;
+  opacity: 0%;
+  animation: antiClockwiseSpin 5000ms, blink 3s,
+}
+
+.img9 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 70%;
+  top: 45%
+}
+
+.img9 img {
+  height: 100px;
+  opacity: 0%;
+  animation: antiClockwiseSpin 5000ms, blink 3s,
+}
+
+.img10 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 85%;
+  top: 45%
+}
+
+.img10 img {
+  height: 100px;
+  opacity: 0%;
+  animation: antiClockwiseSpin 5000ms, blink 3s,
+}
+
+// throw 5
+
+
+.img11 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 30%;
+  top: 60%
+}
+
+.img11 img {
+  height: 100px;
+  opacity: 0%;
+  animation: antiClockwiseSpin 5000ms, blink1 3s,
+}
+
+.img12 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 50%;
+  top: 45%
+}
+
+.img12 img {
+  height: 100px;
+  opacity: 0%;
+  animation: antiClockwiseSpin 5000ms, blink1 3s,
+}
+
+.img13 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 70%;
+  top: 45%
+}
+
+.img13 img {
+  height: 100px;
+  opacity: 0%;
+  animation: antiClockwiseSpin 5000ms, blink1 3s,
+}
+
+
+@keyframes blink1 {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+
+}
+
 
 @keyframes antiClockwiseSpin {
   from {
@@ -148,4 +272,9 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.bonus {
+  position: absolute;
+  padding: 3rem;
 }
